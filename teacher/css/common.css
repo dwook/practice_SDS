@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* reset */
+body {
+	font:normal 12px Arial, sans-serif;
+	line-height:1.5;
+	color:#666666;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+ul, ol {list-style:none;}
+img {border:0;}
+a {text-decoration:none; color:#666;}
+table {border-collapse:collapse; width:100%;}
+
+/* layout */
+.wrap {min-width:1020px; width:100%;  position:relative;}
+.header {height:84px; width:1020px; margin:0 auto 200px;}
+.main {width:1000px; margin:0 auto; padding-bottom:80px;}
+.breadcrumbs {margin-bottom:47px;}
+.extra {border-top:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4;}
+.sitemap {width:1020px; margin:0 auto;}
+.footer {width:1020px; margin:0 auto;}
+
+/* header */
+h1 {margin:25px 63px 0 0; float:left;}
+.nav {float:left; margin-top:34px;}
+.nav > li {float:left;}
+.nav > li + li  {margin-left:60px;}
+.nav > li > a + div {
+	border-bottom:1px solid #ccc; 
+	position:absolute; 
+	top:74px; 
+	left:0;
+	width:100%; 
+	height:190px;
+	overflow:hidden;
+	display:none;
+}
+.nav > li > div > ul {
+	padding-top:40px;
+	height:100%;
+	width:1020px;
+	margin:0 auto;
+}
+.nav .about div {background:url('../images/gnb_line1.gif') repeat-x 0 0;}
+.nav .about div a {display:inline-block;}
+.nav .about div > ul {background:url('../images/gnb_arrow1.gif') no-repeat 245px 0;}
+.nav .about div > ul > li {width:120px; height:130px; padding-left:20px; float:left; border-left:1px solid #ccc;}
+.nav .about div > ul > li > a {margin-bottom:30px;}
+.nav .about div > ul > li li {padding-left:7px; margin-bottom:5px;  background:url('../images/bul_dot.gif') no-repeat 0 4px;}
+.nav .answer div {background:url('../images/gnb_line2.gif') repeat-x 0 0;}
+.nav .answer div a {display:inline-block;}
+.nav .answer div > ul {background:url('../images/gnb_arrow2.gif') no-repeat 385px 0;}
+.nav .answer div > ul > li {width:230px; height:130px; padding-left:20px; float:left; border-left:1px solid #ccc;}
+.nav .answer div > ul > li > a {float:left; margin-right:35px;}
+.nav .answer div > ul > li > ul {float:left;}
+.nav .answer div > ul > li li {margin-bottom:5px;}
+#about .about div {display:block;}
+#answer .answer div {display:block;}
+
+.header .search {float:right; margin-top:20px; border:1px solid #e4e4e4; padding:10px;}
+.header .search input {border:none;}
+
+/*breadcrumbs*/
+.breadcrumbs > span {padding:0 8px 0 10px; background:url('../images/bul_arrow.gif') no-repeat 0 4px;}
+.breadcrumbs > span:first-child {padding:0 8px 0 0; background:none;}
+.breadcrumbs img {vertical-align:middle;}
+
+/* extra */
+.extra .sitemap {height:45px; border-left:1px solid #e4e4e4; border-right:1px solid #e4e4e4;}
+.extra .sitemap .left {float:left;}
+.extra .sitemap .right {float:right;}
+.extra .sitemap .left span {padding:0 10px; margin-top:17px; background:url('../images/f_bar.gif') no-repeat 0 2px;}
+.extra .sitemap .left .eng {margin-top:12px; background:none}
+.extra .sitemap span {float:left;}
+
+/* footer */
+.footer {padding-top:30px; height:50px;}
+.footer p {float:left;}
+.footer .familysite {float:right; position:relative;}
+.footer .familysite .list {width:135px; padding:10px; position:absolute; bottom:0px; background-color:#0c4da2;}
+.footer .familysite .list > a {position:absolute; top:0; right:0;}
+.footer .familysite .list a {color:white;}
+.footer .familysite .list li {margin-top:3px;}
+
+/* board */
+.board_list caption {visibility:hidden; height:0;}
+.board_list td, .board_list th {padding:10px; border-bottom:1px solid #d9d9d9;}
+.board_list th {border-top:2px solid #666; background-color:#ededed}
+.board_list .no {text-align:left}
+.board_list .date {text-align:center;}
+.page_nav {margin-top:20px; text-align:center;}
+.page_nav > span {background-color:blue; color:white;}
+.page_nav span{display:inline-block; width:25px; height:22px; padding-top:3px; border:1px solid #999;}
+.page_nav img {vertical-align: middle;}
+
+/* 인사말 */
+.about21 {background:url('../images/img_about21_ceo.gif') no-repeat right 190px;}
+.about21 .slogan {margin:48px 0 33px;}
+.about21 p + p {margin-top:33px;}
+.about21 .ceosign {text-align:right; margin-top:-110px;}
+
+
+/* 채용공고 */
+.sch_top {text-align:right;  margin: 48px 0 15px;}
+.sch_top select, .sch_top input[type="text"] {border:1px solid #d9d9d9; margin-left:5px;}
+.sch_top select {padding:6px;}
+.sch_top input[type="text"] {padding:8px}
+.sch_top input[type="image"] {vertical-align:middle;}
+
+
+
+
+
+
+

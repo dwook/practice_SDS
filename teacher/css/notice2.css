@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* reset */
+body {
+	font:normal 12px Arial, sans-serif;
+	line-height:1.5;
+	color:#666666;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+ul, ol {list-style:none;}
+img {border:0;}
+a {text-decoration:none; color:#666;}
+table {border-collapse:collapse; width:100%;}
+
+/* layout */
+.header {width:1020px; margin:0 auto 200px;}
+.main {width:1020px; margin:0 auto;}
+.extra {width:100%;}
+.extra .sitemap {width:1018px; margin:0 auto;}
+.footer {width:1020px; margin:30px auto 30px;}
+
+/* header */
+.header {height:84px;}
+h1 {float:left; margin:25px 63px 0 0;}
+.nav {float:left; margin-top:34px;}
+.nav > li {border:1px solid red; float:left;}
+.nav > li + li {margin-left:34px;}
+.nav > li.about > div {position:absolute; top:84px; left:0; min-width:1020px; width:100%; height:190px; background:url('../images/gnb_line1.gif') repeat-x 0 0;}
+.nav > li.about > div > ul {background:url('../images/gnb_arrow1.gif') no-repeat 240px 0; padding-top:40px; overflow:hidden; width:1020px; margin:0 auto;}
+.nav > li.about > div > ul > li {float:left; border-left:1px solid #ccc; padding-left:20px; width:124px; height:130px;}
+.nav > li.about > div > ul > li > a {margin-bottom:30px; display:block;}
+.nav > li.about > div > ul > li li {padding-left:10px; margin-bottom:5px; background:url('../images/bul_dot.gif') no-repeat 0 50%;}
+.search {margin-top:20px; background-color:white; float:right; border: 1px solid #e4e4e4; padding:10px;}
+.search input[type="text"] {border:none;}
+
+/*breadcrumbs*/
+.breadcrumbs {margin-bottom:47px;}
+.breadcrumbs span {padding:0 10px;}
+.breadcrumbs span:first-child {padding:0 10px 0 0;}
+.breadcrumbs span + span {background:url('../images/bul_arrow.gif') no-repeat 0 50%;}
+
+/* extra */
+.extra {border-top:1px solid #999; border-bottom:1px solid #999;}
+.sitemap {height:45px; border-left:1px solid #999; border-right:1px solid #999;}
+.extra .left img {vertical-align:middle;}
+.extra .left span {margin-top:17px; float:left; padding:0 5px; background:url('../images/f_bar.gif') no-repeat 0 50%;}
+.extra .left span:first-child {background:none;}
+.extra .left .eng {background:none; margin-top:12px}
+.extra .right {float:right;}
+.extra .right span {float:left;}
+
+/* footer */
+.footer {height:26px;}
+.footer p {float:left;}
+.footer .familysite {position:relative; float:right; }
+.footer .familysite .list {position:absolute; top:-170px; left:0; width:135px; padding:10px; background-color:#0c4da2; }
+.footer .familysite .list a {color:white;}
+.footer .familysite .list > a {position:absolute; right:0; top:0;}
+
+/* 인사말 */
+.slogan {margin:48px 0 33px;}
+.about21 p + p {margin-top:33px;}
+.about21 {background:url('../images/img_about21_ceo.gif') no-repeat right 180px; padding-bottom:40px}
+.about21 .ceosign {text-align:right; margin-top:-100px;}
+
+
+
+
+
+
+
+

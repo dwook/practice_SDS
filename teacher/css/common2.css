@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* reset */
+body {
+	font:normal 12px Arial, sans-serif;
+	line-height:1.5;
+	color:#666666;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+ul, ol {list-style:none;}
+img {border:0;}
+a {text-decoration:none; color:#666;}
+table {border-collapse:collapse; width:100%;}
+
+/* layout */
+.wrap {width:100%;}
+.header .top {height:84px; width:1020px; margin:0 auto;}
+.header .submenu {width:100%;}
+.inner {width:1020px; margin:0 auto;}
+.main {width:1020px; margin:200px; auto 0;}
+.footer .footmenu {border-top:1px solid black; border-bottom:1px solid black; }
+.footer .copyright {width:1020px; margin:0 auto; background-color:orange; height:50px;}
+
+/* header */
+
+.header .submenu .inner {height:183px; }
+.header .top {}
+.header .top h1 {float:left; margin:25px 63px 0 0;}
+.header .top .nav {float:left; margin-top:34px;}
+.header .top .nav > li {float:left; margin-left:60px;}
+.header .top .nav > li:first-child {margin:0;}
+.header .top .search {margin-top:20px; float:right; width:160px; border:1px solid #999; padding:10px;}
+.header .top .search input[type=text] {border:none;}
+.header .submenu {position:absolute; top:75px; left:0; background:url('../images/gnb_line1.gif') repeat-x 0 0; border-bottom:1px solid gray;}
+.header .submenu .inner > ul {
+	overflow:hidden;
+	padding-top:34px; 
+	background:url('../images/gnb_arrow1.gif') no-repeat 245px 0;
+}
+.header .submenu .inner > ul > li {
+	float:left;
+	border-left:1px solid gray;
+	width:120px;
+	padding-left:20px;
+	height:130px;
+}
+.header .submenu .inner > ul > li > ul {margin-top:20px;}
+.header .submenu .inner > ul > li > ul > li {padding-left:10px; background:url("../images/bul_dot.gif") no-repeat scroll 0 4px;}
+/*breadcrumbs*/
+.breadcrumbs {height:17px; background-color:yellow; margin:22px 0 47px}
+
+/* extra */
+
+/* footer */
+.footer .footmenu .inner {height:45px;}
+
+/* */
+.contents {padding-bottom:100px;}
+.contents .ceotext {position:relative; margin-top:38px; background:url('../images/img_about21_ceo.gif') no-repeat right 0; }
+.contents .ceotext > p + p{margin-top:37px;}
+
+.contents .desc {margin-top:47px;}
+.contents .desc2 {margin-top:27px;}
+.contents .desc3 {margin-top:37px;}
+.contents .ceotext .sign {position:absolute; bottom:0; right:0;}
+
+
+
+
+
+
+
